@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>All About Lions</title>
+    </head>
+    <body>
+        <header>All About Lions</header>
+
+        <nav>
+            <img id="navicon" src="Images/hamburger.png" alt="nav favicon">
+            <ul>
+                <a class="link" href="index.html"><li>Home</li></a>
+                <a class="link" href="Video.html"><li>Video</li></a>
+                <a class="link" href="Sign Up.html"><li>Sign Up</li></a> 
+                <a class="link" href="Data.html"><li>Data</li></a>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="gridContainer">
+                <article>On this page you can sign up to get more information about Lions and what you can do to help them out!</article>
+                <article>Also fill this later</article>
+                <section>
+                    <div id="form">
+
+                        <h2>Complete the form below and we will contact you soon will more information!</h2>
+                        <form class="form-grid"><!-- Start Form -->
+        
+                            <fieldset>
+                                <legend>Contact Information</legend>
+        
+                                <label for="fName">First Name:</label>
+                                <input type="text" name="fName" id="fName">
+        
+                                <label for="1Name">Last Name:</label>
+                                <input type="text" name="1Name" id="1Name">
+        
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email">
+
+                                <br>
+        
+                                <label for="Phone">Phone:</label>
+                                <input type="tel" name="Phone" id="Phone">
+                            </fieldset>
+        
+                            <fieldset>
+                                <legend>Additional Information</legend>
+                                <p>I would like more information about:</p>
+        
+                                <label for="vol"><input type="radio" name="info" id="vol" value="Volunteering">Volunteering</label>
+                                <label for="Fundraising"><input type="radio" name="info" id="Fundraising" value="Fundraising">Fundraising</label>
+                                <label for="lions"><input type="radio" name="info" id="lions" value="Lions">Lions!!!</label>
+                                <label for="other"><input type="radio" name="info" id="other" value="Other">Other, please specify below.</label>
+                                <label for="questions">What questions do you have for us?</label>
+                                <textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+                            </fieldset>
+        
+                            <input type="submit" id="submit" value="Submit" class="btn">
+                            <input type="reset" id="reset" value="Reset" class="btn">
+        
+                        </form>
+        
+                    </div>
+                </section>
+            </div>
+
+        </main>
+
+    </body>
+</html>
